@@ -13,9 +13,9 @@
  */
 typedef struct listint_s
 {
-	const int n;
-	struct listint_s *prev;
-	struct listint_s *next;
+    const int n;
+    struct listint_s *prev;
+    struct listint_s *next;
 } listint_t;
 
 /* from print_list.c */
@@ -26,7 +26,9 @@ void print_array(const int *array, size_t size);
 void bubble_sort(int *array, size_t size);
 /* from 1-insertion_sort_list.c */
 void insertion_sort_list(listint_t **list);
-
+/* from 2-selection_sort.c */
 void selection_sort(int *array, size_t size);
+/* from 3-quick_sort.c */
+void quick_sort(int *array, size_t size);
 
 #endif /*SORT_H*/
