@@ -31,6 +31,6 @@ void selection_sort(int *array, size_t size);
 /* from 3-quick_sort.c */
 void quick_sort(int *array, size_t size);
 /* helper for selection_sort */
-//void swap(int *a, int *b);
+/* void swap(int *a, int *b); */
 
 #endif /*SORT_H*/
