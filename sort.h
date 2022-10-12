@@ -32,5 +32,7 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 /* helper for selection_sort */
 /* void swap(int *a, int *b); */
+/* from 100-shell_sort.c */
+void shell_sort(int *array, size_t size);
 
 #endif /*SORT_H*/
