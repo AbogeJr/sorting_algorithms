@@ -32,5 +32,6 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 /* helper for selection_sort */
 void swap(int *a, int *b);
+void swap(int *array, int left, int right);
 
 #endif /*SORT_H*/
